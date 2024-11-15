@@ -35,7 +35,6 @@ curl_close($ch);
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
 </head>
 <main>
-    <pre style="font-size:12px; width: 80vw; overflow: scroll; height: 150px"><?= var_dump($data); ?></pre> <!-- con pre se visualizan los datos de forma adecuada -->
     <section>
         <h4>La próxima película de Marvel será:</h4>
         <h1> <?= $data["title"] ?></h2>
